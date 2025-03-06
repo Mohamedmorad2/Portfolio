@@ -428,6 +428,11 @@ section.visible {
     margin-bottom: 40px;
     max-width: 550px;
 }
+.experience-text-skills{
+    color: var(--text-color-secondary);
+    margin-bottom: 40px;
+    max-width: 550px;
+}
 .experience-timeline {
     position: relative;
 }
@@ -1093,6 +1098,7 @@ img {
         flex-direction: row;
         align-items: flex-start;
     }
+    
 }
 
 /* Fluid Typography */
@@ -1179,15 +1185,38 @@ img {
     }
     .sidebar-title{
         font-size: 2rem;
+        text-align: center;
     }
+    .sidebar-pills {
+        align-items: center;
+    }
+    .sidebar-pills li {
+        width: 100%;
+        text-align: center;
+    }
+
     .experience-title{
         font-size: 1.7rem;
+        text-align: center;
+    }
+    .experience-text-skills{
+        text-align: center;
     }
     .certificate-item{
         max-width: 100%;
         margin-bottom: 20px;
     }
 
+
+}
+
+@media (max-width: 767.98px) {
+    .skills-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .details-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 

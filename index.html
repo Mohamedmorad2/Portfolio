@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Muhammed Morad</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="website icon" type="png" href="img/profile-pic__4_-removebg-preview.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Portfolio|Muahmmed Morad<span class="accent-dot">.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resume">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#project">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="title-small">Machine learning Engineer </div>
+                    <h1 class="title-large">
+                        Hello I'm <span class="accent-text">Muhammed Mustafa Morad</span>
+                    </h1>
+                    <p class="hero-text">
+                        I'm an <span class="highlighted">Artificial Intelligence Engineer </span>,
+                        I am <span class="highlighted">Passionate about combining the power of AI</span>, 
+                        software development, 
+                        and data to solve complex problems and <span class="highlighted">Innovate solutions that drive the future.</span>
+                    </p>
+
+                    <div class="btn-social-group">
+                        <a href="files/Mohamed Morad Resume.pdf" download target="_blank">
+                            <button class="download-btn">
+                                DOWNLOAD CV <i class="fas fa-download"></i>
+                            </button>
+                        </a>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/mohamed-mustafa-morad/" class="social-icon" target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/Mohamedmorad2" class="social-icon" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.kaggle.com/mohamedmostafamorad0" class="social-icon" target="_blank">
+                                <i class="fab fa-kaggle"></i>
+                            </a>
+                            <a href="https://wa.me/201234567890?text=Hello,%20I%20would%20like%20to%20contact%20you" class="social-icon" target="_blank">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="profile-container">
+                        <span class="outer-circle-spin"></span>
+                        <div class="profile-circle">
+                            <img src="img/profile-pic__4_-removebg-preview.png" alt="Profile Picture" class="profile-img">
+                        </div>
+                        <span class="circle-spin"></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Services Section -->
+            <div class="stats-section">
+                <div class="row">
+                    <div class="col-6 col-md-3">
+                        <div class="stat-item">
+                            <h2 class="stat-number">12</h2>
+                            <p class="stat-label">Years of experience</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="stat-item">
+                            <h2 class="stat-number">26</h2>
+                            <p class="stat-label">Projects completed</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="stat-item">
+                            <h2 class="stat-number">8</h2>
+                            <p class="stat-label">Technologies mastered</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="stat-item">
+                            <h2 class="stat-number">493</h2>
+                            <p class="stat-label">Code commits</p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </section>
+
+    <!-- Start Scroll-up icon -->
+    <a href="#home" class="scroll-up" id="scroll-up">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>    
+    <!-- End Scroll-up icon -->
+    
+    <!-- Resume Section -->
+    <section class="resume-section" id="resume">
+        <h1 class="text-center mb-4">My<span> Resume</span></h1>
+        <div class="container">
+            <div class="row">
+                <!-- Left Sidebar -->
+                <div class="col-lg-4">
+                    <h2 class="sidebar-title">Why hire me?</h2>
+                    <!-- <p class="sidebar-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+                    
+                    <ul class="sidebar-pills mb-4" id="resumeTabs" role="tablist">
+                        <li role="presentation">
+                            <button class="sidebar-link active" id="experience-tab" data-bs-toggle="tab" data-bs-target="#experience" type="button" role="tab">
+                                Experience
+                            </button>
+                        </li>
+                        <li role="presentation">
+                            <button class="sidebar-link" id="certificates-tab" data-bs-toggle="tab" data-bs-target="#certificates" type="button" role="tab">
+                                Certificates
+                            </button>
+                        </li>
+                        <li role="presentation">
+                            <button class="sidebar-link" id="education-tab" data-bs-toggle="tab" data-bs-target="#education" type="button" role="tab">
+                                Education
+                            </button>
+                        </li>
+                        <li role="presentation">
+                            <button class="sidebar-link" id="skills-tab" data-bs-toggle="tab" data-bs-target="#skills" type="button" role="tab">
+                                Technical Skills
+                            </button>
+                        </li>
+                        <li role="presentation">
+                            <button class="sidebar-link" id="about-tab" data-bs-toggle="tab" data-bs-target="#about" type="button" role="tab">
+                                About me
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Right Content Area -->
+                <div class="col-lg-8">
+                    <div class="tab-content" id="resumeTabContent">
+                        <!-- Experience Tab -->
+                        <div class="tab-pane fade show active" id="experience" role="tabpanel" aria-labelledby="experience-tab">
+                            <h2 class="experience-title">My experience</h2>
+                            <!-- <p class="experience-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque consequat, faucibus et, et.
+                            </p> -->
+                            <div class="experience-timeline">
+                                <div class="row g-4 align-items-stretch"> 
+                                    <!-- Job 1 -->
+                                    <div class="col-md-6">
+                                        <div class="box">
+                                            <div class="timeline-item d-flex flex-column h-150 mb-4">
+                                                <div class="timeline-date">Summer 2023</div>
+                                                <h3 class="timeline-title">Customer Service Intern</h3>
+                                                <div class="timeline-company">Customer Retention</div>
+                                                <div class="timeline-company">Customer Service Representatives</div>
+                                                <div class="timeline-company">Customer Relationship Management (CRM)</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            
+                                    <!-- Job 2 -->
+                                    <div class="col-md-6">
+                                        <div class="box">
+                                            <div class="timeline-item d-flex flex-column h-150 mb-4">
+                                                <div class="timeline-date">Summer 2024</div>
+                                                <h3 class="timeline-title">Customer Service Intern</h3>
+                                                <div class="timeline-company">Customer Retention</div>
+                                                <div class="timeline-company">Customer Service Representatives</div>
+                                                <div class="timeline-company">Customer Relationship Management (CRM)</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            
+                        </div>
+
+                        <!-- Certificates Tab -->
+                        <div class="tab-pane fade" id="certificates" role="tabpanel" aria-labelledby="certificates-tab">
+                            <h2 class="experience-title">My Certificates</h2>
+                            <p class="experience-text">
+                                Here are some of the certifications I have earned.
+                            </p>
+                        
+                            <div class="row">
+                                <!-- Certificate 1 -->
+                                <div class="col-md-6 certificate-item">
+                                    <div class="card h-100" style="background-color:#0A0A0A">
+                                        <img src="img/certificate/Machine Learning with python (IBM).jpeg" class="card-img-top" alt="Certificate 1">
+                                        <div class="card-body d-flex flex-column">
+                                            <h5 class="card-title">Machine Learning with python (IBM)</h5>
+                                            <p class="card-text">Completed an in-depth course on Machine Learning covering various models and algorithms.</p>
+                                            <a href="https://coursera.org/share/05ae5770c7eea5e835d218cdd91548a1" target="_blank" class="btn btn-primary mt-auto">View Certificate</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <!-- Certificate 2 -->
+                                <div class="col-md-6 certificate-item">
+                                    <div class="card h-100" style="background-color:#0A0A0A">
+                                        <img src="img/certificate/Supervised Machine Learning ( Deep Learning Ai).jpeg" class="card-img-top" alt="Certificate 2">
+                                        <div class="card-body d-flex flex-column">
+                                            <h5 class="card-title">Supervised Machine Learning ( Deep Learning Ai)</h5>
+                                            <p class="card-text">Completed a specialization focused on deep learning and neural networks.</p>
+                                            <a href="https://coursera.org/share/a9f41dabf2a8e946d16171b745b1516e" target="_blank" class="btn btn-primary mt-auto">View Certificate</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="./certificates.html" target="_blank">
+                                    <button class="certificates-btn">
+                                        More certificates
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                                        </svg>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Education Tab (Hidden by default) -->
+                        <div class="tab-pane fade" id="education" role="tabpanel" aria-labelledby="education-tab">
+                            <h2 class="experience-title">My education</h2>
+                            <!-- <p class="experience-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque consequat, faucibus et, et.
+                            </p> -->
+                        
+                            <div class="experience-timeline">
+                                <div class="row align-items-stretch">
+                                    <!-- Education 1 -->
+                                    <div class="col-md-6">
+                                        <div class="box">
+                                            <div class="timeline-item d-flex flex-column h-100">
+                                                <div class="timeline-date">2021 - 2025</div>
+                                                <h3 class="timeline-title">Bachelor of Arts in English</h3>
+                                                <div class="timeline-company">Kafrelsheikh University</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                        
+                                    <!-- Education 2 -->
+                                    <div class="col-md-6">
+                                        <div class="box">
+                                            <div class="timeline-item d-flex flex-column h-100">
+                                                <div class="timeline-date">2023</div>
+                                                <h3 class="timeline-title">CS50’s Introduction to Computer Science</h3>
+                                                <div class="timeline-company">Harvard University</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Skills Tab -->
+                        <div class="tab-pane fade" id="skills" role="tabpanel" aria-labelledby="skills-tab">
+                            <h2 class="experience-title">My Skills</h2>
+                            <p class="experience-text">Here are some of the technologies I work with:</p>
+
+                            <div class="skills-grid">
+                                <div class="skill-item" data-tooltip="Python">
+                                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/python.svg" alt="Python">
+                                </div>
+                                <div class="skill-item" data-tooltip="Django Framework">
+                                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/django.svg" alt="Django Framework">
+                                </div>
+                                <div class="skill-item" data-tooltip="Data Structures">
+                                    <img src="img/skils/Data Structures.png" alt="Data Structures">
+                                </div>
+                                <div class="skill-item" data-tooltip="Object Oriented Programming">
+                                    <img src="img/skils/programming.png" alt="Object Oriented Programming">
+                                </div>
+                                <div class="skill-item" data-tooltip="Git">
+                                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/git.svg" alt="Git">
+                                </div>
+                                <div class="skill-item" data-tooltip="Git Hub">
+                                    <img src="img/skils/github.svg" alt="Git Hub">
+                                </div>
+                                <div class="skill-item" data-tooltip="Numpy">
+                                    <img src="img/skils/numpy.svg" alt="numpy">
+                                </div>
+                                <div class="skill-item" data-tooltip="Pandas">
+                                    <img src="img/skils/foodpanda.svg" alt="Pandas">
+                                </div>
+                                <div class="skill-item" data-tooltip="Matplotlib">
+                                    <img src="img/skils/pandas.svg" alt="Matplotlib">
+                                </div>
+                                <div class="skill-item" data-tooltip="Paddlepaddle">
+                                    <img src="img/skils/paddlepaddle.svg" alt="paddlepaddle">
+                                </div>
+                                <div class="skill-item" data-tooltip="Scikit-learn">
+                                    <img src="img/skils/scikitlearn.svg" alt="Scikit-learn">
+                                </div>
+                                <div class="skill-item" data-tooltip="Tensorflow">
+                                    <img src="img/skils/tensorflow.svg" alt="tensorflow">
+                                </div>
+                                <div class="skill-item" data-tooltip="Pytorch">
+                                    <img src="img/skils/pytorch.svg" alt="pytorch">
+                                </div>
+                                <div class="skill-item" data-tooltip="Agile">
+                                    <img src="img/skils/Agile.png" alt="Agile">
+                                </div>
+                                <div class="skill-item" data-tooltip="Flask">
+                                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/flask.svg" alt="Flask">
+                                </div>
+                                <div class="skill-item" data-tooltip="SQL">
+                                    <img src="img/skils/sql.png" alt="SQL">
+                                </div>
+                                <div class="skill-item" data-tooltip="MySQL">
+                                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/mysql.svg" alt="MySQL">
+                                </div>
+                                <div class="skill-item" data-tooltip="Algorithms">
+                                    <img src="img/skils/Algorithms.png" alt="Algorithms">
+                                </div>
+                                <div class="skill-item" data-tooltip="Postman">
+                                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/postman.svg" alt="Postman">
+                                </div>
+                                <div class="skill-item" data-tooltip="C">
+                                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/c.svg" alt="C">
+                                </div>
+                                <div class="skill-item" data-tooltip="Jupyter">
+                                    <img src="img/skils/jupyter.svg" alt="jupyter">
+                                </div>
+                                <div class="skill-item" data-tooltip="Pycharm">
+                                    <img src="img/skils/pycharm.svg" alt="pycharm">
+                                </div>
+                                <div class="skill-item" data-tooltip="Visual Studio Code">
+                                    <img src="img/skils/visual-studio-code.png" alt="Visual Studio Code">
+                                </div>
+                                <div class="skill-item" data-tooltip="Visual Studio">
+                                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/visualstudio.svg" alt="Visual Studio">
+                                </div>
+                                <div class="skill-item" data-tooltip="HTML">
+                                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/html5.svg" alt="HTML">
+                                </div>
+                                <div class="skill-item" data-tooltip="CSS">
+                                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/css3.svg" alt="CSS">
+                                </div>
+                                <div class="skill-item" data-tooltip="JavaScript">
+                                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/javascript.svg" alt="JavaScript">
+                                </div>
+                                <div class="skill-item" data-tooltip="Bootstrap">
+                                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/bootstrap.svg" alt="Bootstrap">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- About Tab (Hidden by default) -->
+                        <div class="tab-pane fade" id="about" role="tabpanel" aria-labelledby="about-tab">
+                            <h2 class="experience-title">About me</h2>
+                            <p class="experience-text">
+                                I'm Muhammed Mustafa Morad <br>
+                                Artificial Intelligence Engineer | Innovator in Tech Solutions <br>
+                                As a highly skilled Artificial Intelligence Engineer, <br>I specialize in bridging the frontiers of AI, software development, 
+                                <br>and data analytics to solve intricate challenges and deliver transformative solutions. <br>
+                                With a passion for innovation, I architect systems that not only address today’s complexities but also propel technological advancement in the digital era. <br>
+                                My work is driven by a mission to turn cutting-edge research into scalable tools that redefine industries and empower progress.
+                            </p>
+                            
+                            <div class="details-grid">
+                                <div class="detail-item">
+                                    <span class="detail-label">Name</span>
+                                    <span class="detail-value">Muhammed Mustafa Morad</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Phone</span>
+                                    <span class="detail-value">+201276717527</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Experience</span>
+                                    <span class="detail-value">1+ Years</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Nationality</span>
+                                    <span class="detail-value">Egyptian</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Email</span>
+                                    <span class="detail-value">m7medmorad12@gmail.com</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Freelance</span>
+                                    <span class="detail-value freelance">Available</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Languages</span>
+                                    <span class="detail-value">English, Arabic</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project {Work} -->
+    <section id="project" class="project-section">
+        <h1 class="text-center mb-4">My<span> Projects</span></h1>
+        <div class="container mt-5">
+            <!-- Project Grid -->
+            <div class="row project-container">
+                <!-- Project Item -->
+                <div class="col-md-4 project-item" data-category="Web Development">
+                    <div class="card mb-4">
+                        <img src="img/project/customer-relationship-management1.jpeg" class="card-img-top" alt=" Custom Bags">
+                        <div class="card-body">
+                            <h5 class="card-title">Customer Service Management System</h5>
+                            <p class="card-text">Our system delivers streamlined product management with precise order tracking and automated expense calculation, saving you valuable time and effort. It also offers clear customer review analysis and a fast, intuitive interface designed for everyone.</p>
+                            <p class="tech-stack">HTML5, CSS3, JavaScript, Python, Django</p>
+                            <hr>
+                            <div class="d-flex mb-4" target="_blank">
+                                <a href="https://www.linkedin.com/posts/mohamed-mustafa-morad_%D9%88%D9%82%D9%84-%D9%B1%D8%B9%D9%85%D9%84%D9%88%D8%A7-%D9%81%D8%B3%D9%8A%D8%B1%D9%89-%D9%B1%D9%84%D9%84%D9%87-%D8%B9%D9%85%D9%84%D9%83%D9%85-activity-7267571904117407744-C9PY?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD54VvYBG_1crNgCQRvyS0WasyvNOF19C7Q" class="social-icon me-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                                    </svg>
+                                </a>
+                                <a href="https://github.com/Mohamedmorad2/Customer-Service-Management-System" class="social-icon" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 project-item" data-category="Data Analysis">
+                    <div class="card mb-4">
+                        <img src="img/project/pexels-pixabay.jpg" class="card-img-top" alt="Project">
+                        <div class="card-body">
+                            <h5 class="card-title">Salaries Analysis</h5>
+                            <p class="card-text">This project analyzes a dataset containing detailed information on San Francisco city government employee compensation—covering job titles, departments, base salaries, overtime, and benefits. The analysis reveals trends such as skewed salary distributions.</p>
+                            <p class="tech-stack">Python, Pandas, Numpy, Seaborn, Matplotlib</p>
+                            <hr>
+                            <div class="d-flex mb-4">
+                                <a href="https://github.com/Mohamedmorad2/Salaries-Data-Analysis" class="social-icon me-3" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                                    </svg>
+                                </a>
+                                <a href="https://github.com/Mohamedmorad2/Salaries-Data-Analysis" class="social-icon" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4 project-item" data-category="Machine Learning">
+                    <div class="card mb-4">
+                        <img src="img/project/House Prices Predictions.png" class="card-img-top" alt="House Analysis Project">
+                        <div class="card-body">
+                            <h5 class="card-title">House Prices Predictions</h5>
+                            <p class="card-text">About
+                                This project aims to predict house prices based on various features such as area, number of bedrooms, bathrooms, access to main road, and more. The model uses linear regression and standard scaling for input data.</p>
+                            <p class="tech-stack">Python, Pandas, Scikit-learn,Numpy, Seaborn, Matplotlib, Stremalit,</p>
+                            <hr>
+                            <div class="d-flex mb-4">
+                                <a href="https://house-prices-predictions.streamlit.app/" class="social-icon me-3" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                                    </svg>
+                                </a>
+                                <a href="https://github.com/Mohamedmorad2/House-Prices-Predictions" class="social-icon" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="./project.html" target="_blank">
+                <button class="project-btn">
+                    More Project
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                    </svg>
+                </button>
+            </a>
+        </div>
+    </section>
+
+    <!--contact-->
+    <section class="contact-section" id="contact">
+        <h1>Contact <span>Me</span></h1>
+        <div class="contact-container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="contact-form">
+                        <h2 class="section-title">Let's Contact together</h2>
+                        <!-- <p class="form-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
+
+                        <form id="contactForm">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" name="from_first_name" class="form-control" placeholder="First Name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" name="from_last_name" class="form-control" placeholder="Last Name" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="email" name="from_email" class="form-control" placeholder="Email Address" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="tel" name="phone" class="form-control" placeholder="Phone Number">
+                                </div>
+                            </div>
+
+                            <textarea name="message" class="form-control" placeholder="Your message" rows="5" required></textarea>
+
+                            <!-- Hidden fields for template -->
+                            <input type="hidden" name="to_name" value="Mohamed">
+                            <input type="hidden" name="reply_to" value="m7medmorad12@gmail.com">
+
+                            <button type="submit" class="send-btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="col-lg-5">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h5>Phone</h5>
+                                <p>+201276717527</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h5>Email</h5>
+                                <p>m7medmorad12@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h5>Address</h5>
+                                <p>Egypt</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer>
+        <p>&copy; 2025 Muhammed Mustafa Morad. All rights reserved.</p>
+        <div class="social-icons-footer">
+            <a href="https://www.linkedin.com/in/mohamed-mustafa-morad/"  class="social-icon" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/Mohamedmorad2" class="social-icon" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.kaggle.com/mohamedmostafamorad0" class="social-icon" target="_blank">
+                <i class="fab fa-kaggle"></i>
+            </a>
+            <a href="https://wa.me/201234567890?text=Hello,%20I%20would%20like%20to%20contact%20you" class="social-icon" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>           
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

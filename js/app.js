@@ -232,7 +232,6 @@ document.querySelectorAll('.skill-item').forEach(item => {
     item.addEventListener('mouseout', function() {
         this.style.boxShadow = '0 8px 15px rgba(0,0,0,0.1)';
     });
-<<<<<<< HEAD
 });
 
 
@@ -279,6 +278,4 @@ function typeText() {
 typeText();
 
 
-=======
-});
->>>>>>> ce6f7203a541d6b08ef59ca1903457fdebadc886
+

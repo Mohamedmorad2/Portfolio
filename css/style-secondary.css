@@ -739,10 +739,7 @@ a{
     text-decoration: none;
 }
 
-<<<<<<< HEAD
-=======
 
->>>>>>> ce6f7203a541d6b08ef59ca1903457fdebadc886
 .project-btn:hover {
     background-color: var(--accent-color);
     color: black;
@@ -750,12 +747,7 @@ a{
     box-shadow: 0 0 25px var(--accent-color);
 }
 
-<<<<<<< HEAD
-=======
 
-
-
->>>>>>> ce6f7203a541d6b08ef59ca1903457fdebadc886
 .project-container {
     display: flex;
     flex-wrap: wrap;
@@ -791,13 +783,12 @@ a{
     margin-bottom: 15px;
 }
 
-<<<<<<< HEAD
+
 .development-tools {
     color: var(--text-color);
     margin-bottom: 15px;
 }
-=======
->>>>>>> ce6f7203a541d6b08ef59ca1903457fdebadc886
+
 .social-icon {
     width: 40px;
     height: 40px;
